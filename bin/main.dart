@@ -7,5 +7,8 @@
 // triangle(215) ➞ 23220
 
 void main() {
-
+print(tNS(6));
+}
+int tNS(int terms){
+  return ((terms*(terms+1))/2).toInt();
 }
